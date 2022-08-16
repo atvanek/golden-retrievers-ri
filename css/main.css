@@ -22,6 +22,10 @@ h1, h2, h3 {
   font-family: 'Rubik Dirt';
 }
 
+h3{
+  font-size: 1.5em;
+}
+
 header {
   background: url("../img/golden-landing-1.png");
   background-position: center;
@@ -45,7 +49,7 @@ header {
 }
 
 .nav-links-container{
-  font-size: 16px;
+  font-size: 1.5em;
   display: flex;
   align-items: center;
 }
@@ -65,7 +69,7 @@ header {
   font-family: 'Roboto';
   background: #bb7444;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
   justify-content: space-around;
 }
@@ -74,11 +78,12 @@ header {
   display: flex;
   flex-flow: row nowrap;
   width: 100%;
+  justify-content: center;
+  padding: 45px;
 }
 
 #about-title{
-  font-size: 46px;
-  width: 100%;
+  font-size: 3em;
   color: black;
 }
 
@@ -87,23 +92,19 @@ header {
   margin-right: 15px;
 }
 
-#about-img-container {
+.about-img-container {
   max-width: 45%;
   padding: 40px;
   justify-self: center;
 }
 
-#about-text-container{
+.about-text-container{
   width: 45%;
-  font-size: 24px;
+  font-size: 1.5em;
   display: flex;
   flex-flow: row wrap;
   padding: 50px;
   align-self: flex-start;
-}
-
-.about-description{
-  padding: 50px 0px;
 }
 
 img.d-block.w-100 {
@@ -115,6 +116,11 @@ img.d-block.w-100 {
   color: #463939;
   text-align: center;
   padding: 50px;
+}
+
+.health-logo{
+  height: 30px;
+  margin: 15px;
 }
 
 
@@ -129,6 +135,10 @@ img.d-block.w-100 {
 ul{
   list-style: circle;
   list-style-position: inside;
+}
+
+.row{
+  margin: 35px 0;
 }
 
 
