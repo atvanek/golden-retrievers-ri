@@ -49,7 +49,7 @@ header {
 }
 
 .nav-links-container{
-  font-size: 1.5em;
+  font-size: 1em;
   display: flex;
   align-items: center;
 }
@@ -71,7 +71,7 @@ header {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 #about-title-container{
@@ -109,6 +109,7 @@ header {
 
 img.d-block.w-100 {
   border: #d9e1dc 20px solid;
+  max-height: 600px;
 }
 
 #health{
@@ -141,6 +142,20 @@ ul{
   margin: 35px 0;
 }
 
+#contact{
+  background: #253b56;
+  color: lightyellow;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact h2{
+  width: 100%;
+}
 
 /*
  * Remove text-shadow in selection highlight:
