@@ -57,7 +57,10 @@ header {
 
 .nav-link, .navbar-brand{
   color: white;
-  text-shadow: 3px 3px #1b2121;
+}
+
+.navbar{
+  background-color: #f8f9fa61;
 }
 
 #love-tagline{
@@ -65,8 +68,7 @@ header {
   bottom: 10px;
   text-align: center;
   width: 100%;
-  color: white;
-  text-shadow: 3px 3px #1b2121;
+  color: black;
 }
 
 #about{
