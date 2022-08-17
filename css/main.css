@@ -85,11 +85,11 @@ header {
   flex-flow: row nowrap;
   width: 100%;
   justify-content: center;
-  padding: 45px;
+  padding: 45px 20px;
 }
 
 #about-title{
-  font-size: 3em;
+  font-size: 2.5em;
   color: black;
 }
 
@@ -332,6 +332,39 @@ textarea {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+
+   
+   
+@media (max-width: 575.98px)
+{
+  #about-title-container {
+    padding: 30px 0 0 0;
+}
+
+.silhouette{
+  height: 20px;
+}
+
+h1{
+  font-size: 1.5em;
+}
+
+h2, h3{
+  font-size: 1.25rem;
+}
+
+.health-logo{
+  height: 1.5rem;
+  margin: 10px 10px 10px 0;
+}
+
+#health h2{
+  padding-bottom: 15px;
+  margin-right: -40px;
+  margin-left: -40px;
+}
+
+}
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
