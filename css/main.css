@@ -38,6 +38,7 @@ header {
 
 .silhouette{
   height: 30px;
+  margin: 0 10px;
 }
 
 .nav-logo-container{
@@ -54,8 +55,9 @@ header {
   align-items: center;
 }
 
-.nav-link {
+.nav-link, .navbar-brand{
   color: white;
+  text-shadow: 3px 3px #1b2121;
 }
 
 #love-tagline{
@@ -63,6 +65,8 @@ header {
   bottom: 10px;
   text-align: center;
   width: 100%;
+  color: white;
+  text-shadow: 3px 3px #1b2121;
 }
 
 #about{
@@ -94,8 +98,9 @@ header {
 
 .about-img-container {
   max-width: 45%;
-  padding: 40px;
+  padding: 0 40px;
   justify-self: center;
+  margin: 40px 0;
 }
 
 .about-text-container{
@@ -105,6 +110,11 @@ header {
   flex-flow: row wrap;
   padding: 50px;
   align-self: flex-start;
+  box-shadow: -5px 5px #5a585d30;
+  background-color: #e4d09533;
+  border-radius: 15px;
+  margin: 40px 0;
+
 }
 
 img.d-block.w-100 {
@@ -133,13 +143,21 @@ img.d-block.w-100 {
   padding-bottom: 45px;
 }
 
+.health-badge{
+  background-color: #d1deec;
+  border-radius: 15px;
+  box-shadow: 5px 5px grey;
+  min-height: 160px;
+  padding: 15px;
+}
+
 ul{
   list-style: circle;
   list-style-position: inside;
 }
 
 .row{
-  margin: 35px 0;
+  justify-content: center;
 }
 
 #contact{
