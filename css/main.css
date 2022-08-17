@@ -99,7 +99,6 @@ header {
 }
 
 .about-img-container {
-  max-width: 45%;
   padding: 0 40px;
   justify-self: center;
   margin: 40px 0;
@@ -119,7 +118,7 @@ header {
 }
 
 img.d-block.w-100 {
-  border: #d9e1dc 20px solid;
+  border: #d9e1dc 2vh solid;
   max-height: 600px;
 }
 
